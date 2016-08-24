@@ -1,0 +1,164 @@
+	body {
+      background-color: #262626;
+      color: gray;
+      font-weight: bold;
+    }
+
+	a {
+	  color: gray;
+	}
+
+    li {
+      list-style-type: none;
+      padding-bottom: 15px;
+    }
+
+    #map {
+      height: 50%;
+      margin-top: 20px;
+    }
+
+    options-box {
+      background: #fff;
+      border: 1px solid #999;
+      border-radius: 3px;
+      min-height: 100%;
+      line-height: 35px;
+      padding: 10px 10px 30px 10px;
+      text-align: left;
+      width: 340px;
+    }
+
+    #pano {
+      width: 200px;
+      min-height: 200px;
+    }
+
+    #search-within-time-text {
+      width: 20%;
+    }
+
+    #mode {
+      margin-bottom: 5px;
+    }
+
+    hr {
+      margin: 30px 0px;
+    }
+
+    #places-search {
+      width: 20%;
+      margin-top: 5px;
+    }
+
+	#searchInput {
+      width: 20%;
+      margin-top: 5px;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      #map {
+        min-height: 100%;
+        bottom: 0px;
+        left: 362px;
+        position: absolute;
+        right: 0px;
+      }
+    }
+
+    @media only screen and (max-width: 1023px) and (min-width: 481px) {
+      #map {
+        height: 500px;
+        position: relative;
+      }
+      body {
+        font-size: 1.2em;
+      }
+      #show-listings {
+        min-height: 7%;
+		font-size: .8em;
+      }
+      #hide-listings {
+        min-height: 7%;
+		font-size: .8em;
+      }
+      #pano {
+        width: 200px;
+        min-height: 200px;
+      }
+      #places-search {
+        width: 70%;
+        min-height: 7%;
+        margin-top: 5px;
+      }
+      #go-places {
+        width: 20%;
+        min-height: 7%;
+      }
+      #max-duration {
+        min-height: 7%;
+      }
+      #mode {
+        min-height: 7%;
+      }
+      #search-within-time-text {
+        width: 70%;
+        min-height: 7%;
+      }
+      #search-within-time {
+        width: 20%;
+        min-height: 7%;
+      }
+	  #searchInput {
+        width: 55%;
+        min-height: 7%;
+		font-size: 1.0em;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      #map {
+        height: 300px;
+        position: relative;
+      }
+      body {
+        font-size: 1.2em;
+      }
+      #show-listings {
+        min-height: 5%;
+      }
+      #hide-listings {
+        min-height: 5%;
+      }
+      #pano {
+        width: 200px;
+        height: 200px;
+      }
+      #places-search {
+        width: 70%;
+        min-height: 5%;
+        margin-top: 5px;
+      }
+      #go-places {
+        width: 20%;
+        min-height: 5%;
+      }
+      #max-duration {
+        min-height: 5%;
+      }
+      #mode {
+        min-height: 5%;
+      }
+      #search-within-time-text {
+        width: 70%;
+        min-height: 5%;
+      }
+      #search-within-time {
+        width: 20%;
+        min-height: 5%;
+      }
+	  #searchInput {
+        width: 75%;
+        min-height: 5%;
+      }
+    }

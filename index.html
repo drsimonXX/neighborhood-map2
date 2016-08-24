@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chicagoland's Best Food</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="options-box">
+      <h2>Chicagoland's Best Food</h2>
+      <div>
+        <input id="show-listings" type="button" value="Show Listings">
+        <input id="hide-listings" type="button" value="Hide Listings">
+        <hr>
+      </div>
+      <div id="list">
+        <ul data-bind="foreach:filteredPlaces">
+          <a href="#"><li data-bind="text:title, click:$root.clickMarker"></li></a>
+        </ul>
+		<div class="search-group">
+          <label for="searchInput">Filter By Type of Food:</label><br>
+          <input type="search" id="searchInput" placeholder="I'm Hungry For..." data-bind="textInput: query"/>
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+  </div>
+
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/knockout/knockout-3.3.0.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/script.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyDn4MWVXlPLvnVxWC2FLldm5MEntRbfkrU&v=3&callback=initMap" onerror="googleError()"></script>
+</body>
+</html>
