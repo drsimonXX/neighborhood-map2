@@ -1,6 +1,8 @@
 #Neighborhood Map
 Neighborhood Map is a site that highlights some of the best food places in the South Suburbs of Chicago using the Google Maps API. In addition to the Google Maps API, the project was built using JavaScript, jQuery, Knockout.js and the Wikipedia API. The project demonstrates skills acquired and strengthened via [Udacity](http://www.udacity.com "Udacity") as part of its [Front-end nanodegree course](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001 "Udacity Front-End Nanodegree"). 
 
+*This is the project that passed Udacity's project review.*
+
 ##How To Launch the Project
 To run the project, visit [this] (https://drsimonxx.github.io/neighborhood-map2) link in your browser.
 
