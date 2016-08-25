@@ -1,10 +1,10 @@
-    body {
+	body {
       background-color: #262626;
       color: gray;
       font-weight: bold;
     }
 
-    a {
+	a {
 	  color: gray;
 	}
 
@@ -34,21 +34,8 @@
       min-height: 200px;
     }
 
-    #search-within-time-text {
-      width: 20%;
-    }
-
-    #mode {
-      margin-bottom: 5px;
-    }
-
     hr {
       margin: 30px 0px;
-    }
-
-    #places-search {
-      width: 20%;
-      margin-top: 5px;
     }
 
 	#searchInput {
@@ -86,29 +73,6 @@
         width: 200px;
         min-height: 200px;
       }
-      #places-search {
-        width: 70%;
-        min-height: 7%;
-        margin-top: 5px;
-      }
-      #go-places {
-        width: 20%;
-        min-height: 7%;
-      }
-      #max-duration {
-        min-height: 7%;
-      }
-      #mode {
-        min-height: 7%;
-      }
-      #search-within-time-text {
-        width: 70%;
-        min-height: 7%;
-      }
-      #search-within-time {
-        width: 20%;
-        min-height: 7%;
-      }
 	  #searchInput {
         width: 55%;
         min-height: 7%;
@@ -118,7 +82,7 @@
 
     @media only screen and (max-width: 480px) {
       #map {
-        height: 300px;
+        height: 400px;
         position: relative;
       }
       body {
@@ -132,30 +96,7 @@
       }
       #pano {
         width: 200px;
-        height: 200px;
-      }
-      #places-search {
-        width: 70%;
-        min-height: 5%;
-        margin-top: 5px;
-      }
-      #go-places {
-        width: 20%;
-        min-height: 5%;
-      }
-      #max-duration {
-        min-height: 5%;
-      }
-      #mode {
-        min-height: 5%;
-      }
-      #search-within-time-text {
-        width: 70%;
-        min-height: 5%;
-      }
-      #search-within-time {
-        width: 20%;
-        min-height: 5%;
+        height: 50px;
       }
 	  #searchInput {
         width: 75%;
